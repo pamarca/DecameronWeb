@@ -1,7 +1,9 @@
 # main links
 main:
-  - title: "Quick-Start Guide"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+  - title: "Italian Text"
+    url: /decameron-text/italian/itDay01Nov01/
+  - title: "English Text"
+    url: /decameron-text/english/
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
@@ -10,3 +12,16 @@ main:
   #   url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap/
+
+sidebar:
+  - title: "Italian Text"
+    url: /decameron-text/italian/itProem/
+    children:
+      - title: "Prima Giornata"
+        url: /decameron-text/italian/itDay01
+        children:
+          - title: "Novella Prima"
+            url: /decameron-text/italian/itDay01Nov01
+          - title: "Novella Seconda"
+            url: /decameron-text/italian/itDay01Nov02
+  - title: "English Text"

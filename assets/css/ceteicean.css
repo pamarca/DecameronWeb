@@ -391,7 +391,7 @@ tei-head {
   font-weight: bold;
   font-size: 1.5m;
   margin-top: 2%;
-  font-family: Garamond}
+  font-family: Garamond;}
 
   tei-TEIHeader {
     display: none;
@@ -413,5 +413,10 @@ tei-argument {
 }
 
 tei-milestone {
-  visibility: visible;
+  font-weight: bold;
+}
+
+
+h1 {
+  font-family: Garamond;
 }
