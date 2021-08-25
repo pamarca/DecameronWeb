@@ -390,9 +390,28 @@ tei-head {
   display: block;
   font-weight: bold;
   font-size: 1.5m;
-  margin-left: -3%;
-  margin-top: 2%}
+  margin-top: 2%;
+  font-family: Garamond}
 
   tei-TEIHeader {
     display: none;
   }
+
+tei-p {
+  display: block;
+  text-align: justify;
+  margin-top: 2%;
+  font-size: 1m;
+  font-family: Garamond;
+}
+
+tei-argument {
+  display: block;
+  margin-left: 5%;
+  font-style: italic;
+  font-size: 90%;
+}
+
+tei-milestone {
+  visibility: visible;
+}
